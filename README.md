@@ -8,3 +8,7 @@ See the corresponding .txt file for each mod's information
 Current Mods:
 
 Smelting Touch - Tapping blocks replaces with smelt block, or returns smelt item.
+
+Simple Commands - Using chat commands you can place unobtainable blocks.
+
+Redstone - [Development] Will allow for basic redstone constructions.
