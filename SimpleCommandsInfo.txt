@@ -1,0 +1,1 @@
+Simple Commands (very creatively named) allows for you to place unobtainable items at your feet in Creative mode.  It is useful for things like snow cover and bedrock without needing to replace items in the Creative inventory.  All commands take the form /s <blockname> to place them.
