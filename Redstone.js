@@ -1,3 +1,4 @@
+/*Version 0.1*/
 var powered;
 function checkFerMore(x,y,z){
 	if(powered[x][z]==true){
@@ -25,7 +26,7 @@ function useItem(x,y,z,itemId,blockId,side){
 	}
 }
 function startPulse(x,y,z){
-	print("Pulse activated");
+	print("Active");
 	if(Level.getTile(x-1,y,z)==78){
 		print("Detected wire lesser on X");
 		powered[x-1][z]=true;
@@ -45,6 +46,9 @@ function startPulse(x,y,z){
 		print("Detected wire greater on Z");
 		powered[x][z+1]=true;
 		checkFerMore(x,y,z+1);
+	}
+	if(Level.getTile(x,y,z+1)!=78&&Level.getTile(x,y,z-1)!=78&&Level.getTile(x+1,y,z)!=78&&Level.getTile(x-1,y,z)!=78){
+		print("No adjacent wires detected");
 	}
 }
 function procCmd(c){
