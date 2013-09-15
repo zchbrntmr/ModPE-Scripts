@@ -12,3 +12,5 @@ Smelting Touch - Tapping blocks replaces with smelt block, or returns smelt item
 Simple Commands - Using chat commands you can place unobtainable blocks.
 
 Redstone - [Development] Will allow for basic redstone constructions.
+
+Fire Row - [Development] Will shoot a row of fire out from the user.
