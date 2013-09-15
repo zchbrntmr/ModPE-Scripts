@@ -14,3 +14,7 @@ Simple Commands - Using chat commands you can place unobtainable blocks.
 Redstone - [Development] Will allow for basic redstone constructions.
 
 Fire Row - [Development] Will shoot a row of fire out from the user.
+
+More Items - [Waiting] Just waiting more ModPE support :P
+
+SkyBlock - [Development] Will allow for many of the mods involved with SkyBlock
